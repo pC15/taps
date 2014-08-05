@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/tapCounterGear" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="GvhHRbTNYg.tapCounterGear" package="GvhHRbTNYg" required_version="2.2"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.normal.320.320"/>
+    <icon src="tapsicon.png" height="272" width="272"/>
+    <name>Taps</name>
+    <tizen:setting hwkey-event="enable"/>
+</widget>

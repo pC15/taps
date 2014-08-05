@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,user-scalable=no"/>
+	<title>Wearable UI</title>
+	<link rel="stylesheet" type="test/css" href="lib/tau/themes/default/tau.min.css">
+	<!-- load theme file for your application -->
+	<link rel="stylesheet" type="test/css" href="css/buttons.css">
+	<link rel="stylesheet" type="test/css" href="css/style.css">
+</head>
+<body>
+	<div class="ui-page ui-page-active" id="main">
+		<div class="ui-content content-padding">
+			<div>
+				<input id="reset" class="button" type="button" onclick="reset()" value="Reset" />
+				<input id="goback" class="button" type="button" onclick="goBack()" value="Undo" />
+			</div>
+			<div>
+				<input id="counter" class="button" type="button" onclick="increase()" value="Tap Me!" />
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="lib/tau/js/tau.min.js"></script>
+<!-- load javascript file for your application -->
+<script type="text/javascript" src="js/tapCounterMain.js"></script>
+<script src="js/app.js"></script>
+<script src="js/lowBatteryCheck.js"></script>
+</html>
